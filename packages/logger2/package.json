@@ -1,7 +1,7 @@
 {
   "name": "@tzinos/logger2",
   "private": true,
-  "version": "0.0.7",
+  "version": "0.0.0",
   "description": "> TODO: description",
   "author": "George Tzinos <geotzinos@gmail.com>",
   "homepage": "https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo/tree/master/packages/logger#readme",
