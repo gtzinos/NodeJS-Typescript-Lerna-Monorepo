@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "build": "run-p clean run-s build:api",
     "build:api": "tsc -b ./packages/tsconfig.api-base.json",

@@ -28,18 +28,54 @@
     "clean": "rimraf lib coverage tsconfig.tsbuildinfo"
   },
   "dependencies": {
-    "cors": "^2.8.1",
-    "dotenv": "^4.0.0",
-    "express": "^4.14.0",
-    "express-jwt": "^5.1.0",
-    "express-jwt-authz": "^2.3.1",
-    "jwks-rsa": "^1.1.1"
+    "@shared/logger": "0.0.0",
+    "@types/bcrypt-nodejs": "0.0.31",
+    "@types/mongoose": "^5.7.21",
+    "@types/validator": "^13.0.0",
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.1",
+    "class-validator": "^0.12.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "express-validator": "^6.5.0",
+    "google-auth-library": "^6.0.2",
+    "graphql": "^14.6.0",
+    "helmet": "^3.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.26.0",
+    "moment-timezone": "^0.5.31",
+    "mongoose": "^5.9.16",
+    "nodemailer": "^6.4.10",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-local": "^1.0.0",
+    "validator": "^13.0.0",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "@types/bcrypt": "^3.0.0",
+    "@types/express": "^4.17.1",
+    "@types/lodash": "^4.14.155",
+    "@types/node": "^14.0.5",
+    "@types/nodemailer": "^6.4.0",
+    "@types/passport": "^1.0.3",
+    "@types/passport-facebook": "^2.1.10",
+    "@types/passport-local": "^1.0.33",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.4",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.10.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.9.3"
   },
   "bugs": {
     "url": "https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo/issues"
   }
 }
-
