@@ -1,5 +1,5 @@
 const express = require('express');
-const logger = require('@tzinos/logger2');
+import {logger} from '@tzinos/logger2';
 
 const PORT = process.env.PORT || 8080;
 const app = express();

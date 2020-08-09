@@ -4,7 +4,10 @@ const YELLOW = '\x1b[33m';
 
 const log = (color: any, ...args: any) => console.log(color + '%s', ...args);
 
-exports.info = (...args: any) => log(CYAN, ...args);
-exports.warn = (...args: any) => log(YELLOW, ...args);
-exports.error = (...args: any) => log(RED, ...args);
-exports.error2 = (...args: any) => log(RED, ...args);
+export class logger {
+
+    static info = (...args: any) => log(CYAN, ...args);
+    static warn = (...args: any) => log(YELLOW, ...args);
+    static error = (...args: any) => log(RED, ...args);
+    static error2 = (...args: any) => log(RED, ...args);
+}
