@@ -6,7 +6,7 @@
   "author": "George Tzinos <geotzinos@gmail.com>",
   "homepage": "https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo/tree/master/packages/logger#readme",
   "license": "ISC",
-  "main": "lib/logger.js",
+  "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
