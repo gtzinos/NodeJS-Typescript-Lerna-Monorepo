@@ -1,5 +1,6 @@
 {
   "name": "@shared/api",
+  "private": true,
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "George Tzinos <geotzinos@gmail.com>",
@@ -21,9 +22,24 @@
     "url": "git+https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "start": "tsc && node build/index.js",
+    "build": "run-s clean build:tsc",
+    "build:tsc": "tsc -b",
+    "clean": "rimraf lib coverage tsconfig.tsbuildinfo"
+  },
+  "dependencies": {
+    "cors": "^2.8.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.0",
+    "express-jwt": "^5.1.0",
+    "express-jwt-authz": "^2.3.1",
+    "jwks-rsa": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   },
   "bugs": {
     "url": "https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo/issues"
   }
 }
+

@@ -21,7 +21,9 @@
     "url": "git+https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "run-s clean build:tsc",
+    "build:tsc": "tsc -b",
+    "clean": "rimraf lib coverage tsconfig.tsbuildinfo"
   },
   "bugs": {
     "url": "https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo/issues"
