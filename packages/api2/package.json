@@ -1,7 +1,7 @@
 {
   "name": "@tzinos/api2",
   "private": true,
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "> TODO: description",
   "author": "George Tzinos <geotzinos@gmail.com>",
   "homepage": "https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo/tree/master/packages/api#readme",
@@ -28,7 +28,7 @@
     "@types/bcrypt-nodejs": "0.0.31",
     "@types/mongoose": "^5.7.21",
     "@types/validator": "^13.0.0",
-    "@tzinos/logger2": "^0.0.12",
+    "@tzinos/logger2": "^0.0.13",
     "axios": "^0.19.2",
     "bcrypt": "^4.0.1",
     "class-validator": "^0.12.2",
