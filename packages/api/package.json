@@ -69,8 +69,7 @@
     "nodemon": "^2.0.4",
     "rimraf": "^3.0.2",
     "ts-node": "^8.10.1",
-    "tslint": "^5.12.1",
-    "typescript": "^3.9.3"
+    "tslint": "^5.12.1"
   },
   "bugs": {
     "url": "https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo/issues"
