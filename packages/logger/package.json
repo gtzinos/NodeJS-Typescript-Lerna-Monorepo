@@ -7,12 +7,8 @@
   "homepage": "https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo/tree/master/packages/logger#readme",
   "license": "ISC",
   "main": "build/index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
   "files": [
-    "lib"
+    "build"
   ],
   "publishConfig": {
     "access": "public"
@@ -22,10 +18,9 @@
     "url": "git+https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo.git"
   },
   "scripts": {
-    "start": "tsc && node build/index.js",
-    "build": "run-s clean build:tsc",
-    "build:tsc": "tsc -b",
-    "clean": "rimraf lib coverage tsconfig.tsbuildinfo"
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf ./build && rm -rf tsconfig.tsbuildinfo",
+    "compile": "tsc -b tsconfig.json"
   },
   "bugs": {
     "url": "https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo/issues"
