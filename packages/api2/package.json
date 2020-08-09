@@ -20,9 +20,9 @@
   "repository": "git+https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo.git",
   "scripts": {
     "start": "tsc && node build/index.js",
-    "build": "run-s clean build:tsc",
-    "build:tsc": "tsc -b",
-    "clean": "rimraf lib coverage tsconfig.tsbuildinfo"
+    "build": "yarn clean && yarn compile",
+    "clean": "rm -rf ./build && rm -rf tsconfig.tsbuildinfo",
+    "compile": "tsc -b tsconfig.json"
   },
   "dependencies": {
     "@types/bcrypt-nodejs": "0.0.31",
