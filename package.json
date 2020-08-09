@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo/issues"
   },
-  "homepage": "https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo#readme"
+  "homepage": "https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo#readme",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
 }
