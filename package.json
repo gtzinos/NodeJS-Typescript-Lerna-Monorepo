@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-typescript-lerna-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo/issues"
+  },
+  "homepage": "https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo#readme"
+}
