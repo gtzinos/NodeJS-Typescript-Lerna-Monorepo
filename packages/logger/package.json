@@ -1,7 +1,7 @@
 {
   "name": "@shared/logger",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "George Tzinos <geotzinos@gmail.com>",
   "homepage": "https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo/tree/master/packages/logger#readme",
