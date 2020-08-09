@@ -7,3 +7,4 @@ const log = (color: any, ...args: any) => console.log(color + '%s', ...args);
 exports.info = (...args: any) => log(CYAN, ...args);
 exports.warn = (...args: any) => log(YELLOW, ...args);
 exports.error = (...args: any) => log(RED, ...args);
+exports.error2 = (...args: any) => log(RED, ...args);
