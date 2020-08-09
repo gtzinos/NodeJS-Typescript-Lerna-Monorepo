@@ -6,7 +6,7 @@
   "author": "George Tzinos <geotzinos@gmail.com>",
   "homepage": "https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo/tree/master/packages/logger#readme",
   "license": "ISC",
-  "main": "index.js",
+  "main": "build/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -22,6 +22,7 @@
     "url": "git+https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo.git"
   },
   "scripts": {
+    "start": "tsc && node build/index.js",
     "build": "run-s clean build:tsc",
     "build:tsc": "tsc -b",
     "clean": "rimraf lib coverage tsconfig.tsbuildinfo"
