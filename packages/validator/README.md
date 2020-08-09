@@ -1,11 +1,11 @@
-# `@geotzinos/validator`
+# `@tzinos/validator`
 
 > TODO: description
 
 ## Usage
 
 ```
-const validator = require('@geotzinos/validator');
+const validator = require('@tzinos/validator');
 
 // TODO: DEMONSTRATE API
 ```

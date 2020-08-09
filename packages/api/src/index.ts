@@ -1,5 +1,5 @@
 const express = require('express');
-const logger = require('@geotzinos/logger');
+const logger = require('@tzinos/logger');
 
 const PORT = process.env.PORT || 8080;
 const app = express();

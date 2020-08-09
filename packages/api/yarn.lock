@@ -32,9 +32,9 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@geotzinos/logger@^0.0.7":
+"@tzinos/logger@^0.0.7":
   version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@geotzinos/logger/-/logger-0.0.7.tgz#6a0b0aa43d34f7d6b7d867c19a10d256bd749a05"
+  resolved "https://registry.yarnpkg.com/@tzinos/logger/-/logger-0.0.7.tgz#6a0b0aa43d34f7d6b7d867c19a10d256bd749a05"
   integrity sha512-Vg4X9U3OlBWuflgZbmh/qdEWVOxo/aJprc518FvQMv41Jz3WlUCAjtFZdT4Hs5mWurlMLXG7hyxO0JON9kCOPg==
 
 "@sindresorhus/is@^0.14.0":

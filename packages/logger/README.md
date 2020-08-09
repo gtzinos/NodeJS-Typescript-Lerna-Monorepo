@@ -1,11 +1,11 @@
-# `@geotzinos/logger`
+# `@tzinos/logger`
 
 > TODO: description
 
 ## Usage
 
 ```
-const logger = require('@geotzinos/logger');
+const logger = require('@tzinos/logger');
 
 // TODO: DEMONSTRATE API
 ```

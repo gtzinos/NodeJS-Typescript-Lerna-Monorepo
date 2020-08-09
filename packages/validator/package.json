@@ -1,6 +1,6 @@
 {
-  "name": "@geotzinos/validator",
-  "private": false,
+  "name": "@tzinos/validator",
+  "private": true,
   "version": "0.0.7",
   "description": "> TODO: description",
   "author": "George Tzinos <geotzinos@gmail.com>",

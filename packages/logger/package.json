@@ -1,6 +1,6 @@
 {
-  "name": "@geotzinos/logger",
-  "private": false,
+  "name": "@tzinos/logger",
+  "private": true,
   "version": "0.0.7",
   "description": "> TODO: description",
   "author": "George Tzinos <geotzinos@gmail.com>",
