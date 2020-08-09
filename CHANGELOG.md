@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.11](https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo/compare/v0.0.10...v0.0.11) (2020-08-09)
+
+**Note:** Version bump only for package @tzinos/tzinos
+
+
+
+
+
 ## [0.0.10](https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo/compare/v0.0.9...v0.0.10) (2020-08-09)
 
 **Note:** Version bump only for package @tzinos/tzinos
