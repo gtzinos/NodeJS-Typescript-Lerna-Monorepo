@@ -13,12 +13,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo.git"
-  },
+  "repository": "git+https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo.git",
   "scripts": {
-    "build": "npm run clean && npm run compile",
+    "build": "yarn clean && yarn compile",
     "clean": "rm -rf ./build && rm -rf tsconfig.tsbuildinfo",
     "compile": "tsc -b tsconfig.json"
   },

@@ -1,6 +1,6 @@
 {
   "name": "@geotzinos/api",
-  "private": false,
+  "private": true,
   "version": "0.0.7",
   "description": "> TODO: description",
   "author": "George Tzinos <geotzinos@gmail.com>",
@@ -17,10 +17,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo.git"
-  },
+  "repository": "git+https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo.git",
   "scripts": {
     "start": "tsc && node build/index.js",
     "build": "run-s clean build:tsc",

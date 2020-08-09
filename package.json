@@ -1,9 +1,15 @@
 {
-  "name": "nodejs-typescript-lerna-monorepo",
+  "name": "@geotzinos/geotzinos",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/api/*",
+      "packages/app/*"
+    ]
+  },
   "scripts": {
     "build": "run-p clean run-s build:api",
     "build:api": "tsc -b ./packages/tsconfig.api-base.json",
@@ -13,11 +19,8 @@
     "cleanl": "lerna run --parallel clean",
     "release": "lerna publish"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo.git",
+  "author": "George Tzinos <geotzinos@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo/issues"
