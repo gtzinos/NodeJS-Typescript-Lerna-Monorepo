@@ -1,5 +1,5 @@
 {
-  "name": "@shared/api",
+  "name": "@geotzinos/api",
   "private": true,
   "version": "0.0.2",
   "description": "> TODO: description",
@@ -28,7 +28,7 @@
     "clean": "rimraf lib coverage tsconfig.tsbuildinfo"
   },
   "dependencies": {
-    "@shared/logger": "^0.0.2",
+    "@geotzinos/logger": "^0.0.2",
     "@types/bcrypt-nodejs": "0.0.31",
     "@types/mongoose": "^5.7.21",
     "@types/validator": "^13.0.0",

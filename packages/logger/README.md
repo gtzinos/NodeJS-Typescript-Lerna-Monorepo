@@ -1,11 +1,11 @@
-# `@shared/logger`
+# `@geotzinos/logger`
 
 > TODO: description
 
 ## Usage
 
 ```
-const logger = require('@shared/logger');
+const logger = require('@geotzinos/logger');
 
 // TODO: DEMONSTRATE API
 ```

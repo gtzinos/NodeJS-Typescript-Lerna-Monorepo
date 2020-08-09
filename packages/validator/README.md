@@ -1,11 +1,11 @@
-# `@shared/validator`
+# `@geotzinos/validator`
 
 > TODO: description
 
 ## Usage
 
 ```
-const validator = require('@shared/validator');
+const validator = require('@geotzinos/validator');
 
 // TODO: DEMONSTRATE API
 ```

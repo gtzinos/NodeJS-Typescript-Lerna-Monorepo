@@ -1,11 +1,11 @@
-# `@shared/api`
+# `@geotzinos/api`
 
 > TODO: description
 
 ## Usage
 
 ```
-const api = require('@shared/api');
+const api = require('@geotzinos/api');
 
 // TODO: DEMONSTRATE API
 ```
