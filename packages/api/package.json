@@ -1,7 +1,7 @@
 {
   "name": "@geotzinos/api",
   "private": false,
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "> TODO: description",
   "author": "George Tzinos <geotzinos@gmail.com>",
   "homepage": "https://github.com/gtzinos/NodeJS-Typescript-Lerna-Monorepo/tree/master/packages/api#readme",
@@ -28,7 +28,7 @@
     "clean": "rimraf lib coverage tsconfig.tsbuildinfo"
   },
   "dependencies": {
-    "@geotzinos/logger": "^0.0.6",
+    "@geotzinos/logger": "^0.0.7",
     "@types/bcrypt-nodejs": "0.0.31",
     "@types/mongoose": "^5.7.21",
     "@types/validator": "^13.0.0",
