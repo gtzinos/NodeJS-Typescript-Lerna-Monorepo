@@ -1,5 +1,5 @@
 {
-  "name": "@tzinos/api",
+  "name": "@tzinos/api2",
   "private": true,
   "version": "0.0.7",
   "description": "> TODO: description",
@@ -25,7 +25,7 @@
     "clean": "rimraf lib coverage tsconfig.tsbuildinfo"
   },
   "dependencies": {
-    "@tzinos/logger": "^0.0.7",
+    "@tzinos/logger2": "^0.0.7",
     "@types/bcrypt-nodejs": "0.0.31",
     "@types/mongoose": "^5.7.21",
     "@types/validator": "^13.0.0",
