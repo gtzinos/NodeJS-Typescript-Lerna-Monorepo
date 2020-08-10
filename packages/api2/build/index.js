@@ -1,6 +1,6 @@
 "use strict";
 const express = require('express');
-const logger = require('@tzinos/logger2');
+const logger = require('@tzinos/logger');
 const PORT = process.env.PORT || 8080;
 const app = express();
 app.get('/greeting2', (req, res) => {

@@ -1,5 +1,5 @@
 {
-  "name": "@tzinos/api2",
+  "name": "@tzinos/api",
   "private": true,
   "version": "0.0.15",
   "description": "> TODO: description",
@@ -28,7 +28,7 @@
     "@types/bcrypt-nodejs": "0.0.31",
     "@types/mongoose": "^5.7.21",
     "@types/validator": "^13.0.0",
-    "@tzinos/logger2": "^0.0.15",
+    "@tzinos/logger": "^0.0.15",
     "axios": "^0.19.2",
     "bcrypt": "^4.0.1",
     "class-validator": "^0.12.2",
