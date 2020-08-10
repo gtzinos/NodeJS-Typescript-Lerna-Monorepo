@@ -4,7 +4,7 @@ const logger = require('@tzinos/logger');
 const PORT = process.env.PORT || 8080;
 const app = express();
 
-app.get('/greeting2', (req: any, res: any) => {
+app.get('/greeting', (req: any, res: any) => {
     logger.info('/greeting was called');
     res.send({
         message: `Hello, ${req.query.name || 'World'}!`
